@@ -135,7 +135,7 @@ syn keyword pythonBuiltinType file super
 syn keyword pythonBuiltinFunc   __import__ abs any apply
 syn keyword pythonBuiltinFunc   bin callable classmethod cmp coerce compile
 syn keyword pythonBuiltinFunc   delattr dir divmod enumerate eval execfile
-syn match   pythonBuiltinFunc   /\(^\|\s\)\zs\(format\|id\|all\|filter\)/
+syn match   pythonBuiltinFunc   /\(^\|\s\)\zs\(format\|id\|all\|filter\|print\)/
 syn keyword pythonBuiltinFunc   getattr globals locals hasattr hash help hex 
 syn keyword pythonBuiltinFunc   input intern isinstance issubclass iter len map max min
 syn keyword pythonBuiltinFunc   next oct open ord pow property range xrange
